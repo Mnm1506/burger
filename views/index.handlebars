@@ -1,0 +1,47 @@
+<div class="header">
+  <h1>Eat Da Burger !</h1>
+  <img src="/assets/img/burger.jpg" alt="burger">
+</div>
+
+<div class="menu">
+  <div class="burgers">
+    <h2>List of Burgers to be devoured : </h2>
+
+    <ol>
+      {{#each burgers}}
+      {{#unless devoured}}
+      {{> burgers/burger devoured=false}}
+      {{/unless}}
+      {{/each}}
+    </ol>
+  </div>
+</div>
+
+<div class="eaten">
+  <div class="devoured">
+    <h2>burgers that were devoured : </h2>
+
+    <ol>
+      {{#each burgers}}
+      {{#if devoured}}
+      {{> burgers/burger devoured=true}}
+      {{/if}}
+      {{/each}}
+    </ol>
+  </div>
+</div>
+
+<div class="add">
+  <div class="adder">
+    <h2>Add a burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="burg">burger Name: </label>
+        <input type="text" id="burg" name="name">
+      </div>
+
+      <button type="submit">Add a burger</button>
+    </form>
+  </div>
+</div>
