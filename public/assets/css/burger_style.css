@@ -1,0 +1,27 @@
+body {
+    background-color: darkorange;
+  }
+  .header{
+     padding-left: 40%;
+  }
+  img{
+    margin-left: 5%;
+    border-radius: 50%;
+  }
+  .menu {
+    padding: 2%;
+     float: left;
+     text-align: right;
+  }
+  .eaten {
+    padding: 2%;
+    float: right;
+  }
+  .add {
+    padding-left: 20%;
+    margin: 20%;
+  }
+  button{
+      color: gold;
+      background-color: forestgreen;
+  }
