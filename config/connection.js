@@ -2,15 +2,14 @@
 require("dotenv").config();
 var mysql = require("mysql");
 
-if (process.env.JAWSDB_MARIA_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   var connection = mysql.createConnection({
     host: "localhost",
-    port: process.env.PORT || 3306,
     user: "root",
-    password: "Akbou2009#",
-    database: "burgers_db"
+    password: "Hacktheplanet",
+    database: "todoagain_db"
   });
 };
 // Make connection:
