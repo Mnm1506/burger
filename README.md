@@ -20,7 +20,7 @@ That follows the MVC design pattern; It uses Node and MySQL to query and route d
   - Handlebars
   
    ## Demo :
-  - Eat-Da-Burger is hosted on Heroku. Check it out by clicking here.
+  - Eat-Da-Burger is hosted on Heroku. Check it out here : https://rocky-mesa-45788.herokuapp.com/.
   - ![image](https://user-images.githubusercontent.com/71415480/108784535-3b16d280-7535-11eb-9026-cdf5be0a9bd3.png)
     
 
