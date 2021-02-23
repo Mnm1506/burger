@@ -1,22 +1,8 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mnm1506/burger.git"
-  },
-  "author": "Moussa",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Mnm1506/burger/issues"
-  },
-  "homepage": "https://github.com/Mnm1506/burger#readme",
+  "description": "Eat Da Burger! is a restaurant app that lets users choose the burgers they'd like to devoure or add any burgers  they like .",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
@@ -25,5 +11,19 @@
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mnm1506/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mnm1506/burger/issues"
+  },
+  "homepage": "https://github.com/Mnm1506/burger#readme"
 }
